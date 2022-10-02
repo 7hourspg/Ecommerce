@@ -1,0 +1,125 @@
+.header_txt {
+  text-align: center;
+  background-color: rgb(153, 255, 214);
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+.single_ctr {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.single_ctr .img_ctr {
+  text-align: end;
+  flex: 1;
+  /* border: 2px solid red; */
+}
+.single_ctr .img_ctr img {
+  background-color: rgb(194, 245, 245);
+  width: 30rem;
+  object-fit: cover;
+  height: 35rem;
+}
+.single_ctr .detail_ctr {
+  height: 35rem;
+  flex: 1.5;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.detail_ctr .p_dtl {
+  width: 40rem;
+}
+.detail_ctr .p_dtl h2 {
+  font-size: 2.5rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgba(0, 0, 0, 0.699);
+}
+.detail_ctr .p_dtl p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgba(0, 0, 0, 0.726);
+}
+.detail_ctr .p_dtl h3 {
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.699);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.color {
+  display: flex;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+.color .left_clr {
+  display: flex;
+  /* border: 2px solid red; */
+  width: 15rem;
+  align-items: center;
+  justify-content: space-around;
+  height: 2rem;
+}
+.color p {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace !important;
+  font-size: 2rem;
+  margin-top: 0.5rem;
+}
+.color .clr1 {
+  min-height: 1.5rem;
+
+  min-width: 1.5rem;
+  background-color: blue;
+  border-radius: 50%;
+}
+
+.color .clr2 {
+  min-height: 1.5rem;
+
+  min-width: 1.5rem;
+  background-color: rgb(0, 255, 34);
+  border-radius: 50%;
+}
+.color .clr3 {
+  min-height: 1.5rem;
+
+  min-width: 1.5rem;
+  background-color: rgb(199, 30, 0);
+  border-radius: 50%;
+}
+.color .right_clr select {
+  padding: 0.5rem;
+}
+.buy {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 7.5rem;
+}
+.buy .buylft button {
+  /* width: 2rem; */
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  border: none;
+  background-color: transparent;
+  /* padding: 0 .5rem ; */
+}
+.buy .buylft p {
+  font-size: 3rem;
+}
+.buy .buylft .digit {
+  border: 1px solid rgb(149, 50, 0);
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
+}
+.buy .buyright button {
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0.4rem;
+  border: 1px solid rgb(149, 50, 0);
+  background-color: transparent;
+}

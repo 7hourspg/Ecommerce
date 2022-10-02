@@ -1,0 +1,15 @@
+.Nav-container .logo {
+  width: 2rem;
+  
+}
+.nav-link{
+    color: black !important;
+    font-weight:500;
+}
+.Nav-container .bg-dark {
+  background-color: #F2D7D9 !important;
+  
+}
+.Nav-container .container {
+    max-width: 1417px !important;
+}

@@ -1,0 +1,50 @@
+.prd_ctr {
+  width: 100%;
+  margin: auto;
+}
+.inner_prd_ctr {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.inner_prd_ctr .box {
+    text-align: center;
+  position: relative;
+  width: 23rem;
+  background-color: rgba(201, 240, 255, 0.363);
+}
+.inner_prd_ctr .box img {
+  width: 20rem;
+  height: 25rem;
+  object-fit: contain;
+}
+.inner_prd_ctr .box .inner_bx {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  top: 0;
+  position: absolute;
+  width: 23rem;
+  height: 25rem;
+}
+.inner_prd_ctr .box .inner_bx .icons_bx {
+  gap: 1rem;
+  display: flex;
+ 
+ 
+}
+
+
+.inner_prd_ctr .box .inner_bx .icons_bx .icons{
+background-color: white;
+padding: 1rem;
+border-radius: 50%;
+display: none;
+cursor: pointer;
+}
+.inner_prd_ctr .box .inner_bx:hover .icons{
+    display: block;
+}

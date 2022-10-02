@@ -1,0 +1,43 @@
+.news_ctr{
+    background-color:#F2D7D9;
+   /* border: 2px solid red; */
+   height: 30rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: 4rem;
+}
+.news_ctr .box1 h1{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.news_ctr .box1 p{
+    text-transform: capitalize;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 1.5rem;
+}
+.news_ctr .box2{
+    width: 40rem;
+    /* border: 3px solid red; */
+    display: flex;
+}
+.news_ctr .box2 input{
+    width: 85%;
+    padding: .5rem 0;
+    background-color: #ffeaeb;
+    border: 1px solid black;
+    outline: none;
+}
+.news_ctr ::placeholder{
+    padding-left: 1rem;
+}
+.news_ctr .box2 button{
+    width: 15%;
+    background-color: teal;
+    padding: .4rem 0;
+    border: none;
+}

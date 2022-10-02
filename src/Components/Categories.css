@@ -1,0 +1,41 @@
+.catgr_ctr {
+  margin-top: 6rem !important;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+}
+.catgr_ctr .catgr_inner_ctr {
+  display: flex;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+.catgr_ctr .catgr_inner_ctr .box {
+  position: relative;
+  width: 30rem;
+  height: 40rem;
+  overflow: hidden;
+  object-fit: cover;
+  margin: auto;
+}
+.catgr_ctr .catgr_inner_ctr img {
+  width: 34rem;
+}
+.catgr_ctr .catgr_inner_ctr .title {
+  position: absolute;
+  left: 0;
+  z-index: 99;
+  /* width: 30rem;
+  height: 40rem; */
+  bottom: 10rem;
+  right: 0;
+  /* top: 0; */
+  color: white;
+  text-align: center;
+  /* border: 3px solid black; */
+}
+.catgr_ctr .catgr_inner_ctr .title  button{
+    background-color: white;
+    padding: .4rem 1rem;
+}

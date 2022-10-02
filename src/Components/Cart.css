@@ -1,0 +1,89 @@
+.cart_hdrtext {
+  text-align: center;
+  font-family: "Urbanist", sans-serif;
+  margin: 2rem 0;
+  font-weight: 300;
+}
+.cart_ctr {
+border-bottom: 1px solid black;
+  
+}
+.continue_shp {
+  display: flex;
+  justify-content: space-around;
+}
+.continue_shp .box1 button {
+  background-color: transparent;
+  padding: 0.5rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-family: "Urbanist", sans-serif;
+}
+.continue_shp .box2 button {
+  background-color: transparent;
+  padding: 0.5rem 2.3rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-family: "Urbanist", sans-serif;
+}
+.product_chekcout_ctr{
+    margin: 2rem 0;
+    display: flex;
+    /* border: 2px  solid red; */
+    font-family: "Urbanist", sans-serif;
+}
+.product_chekcout_ctr .box1 {
+    /* border: 1px solid black; */
+    text-align: center;
+    flex: 1;
+}
+.product_chekcout_ctr .box2 {
+    flex: 3;
+    /* border: 1px slateblue solid; */
+    display: flex;
+}
+.product_chekcout_ctr .box1 img{
+    
+    width: 10rem;
+    height: 20rem;
+    object-fit: cover;
+}
+.product_chekcout_ctr .inner_bx1{
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    text-transform: capitalize;
+    font-weight: bold;
+    flex-direction: column;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.662);
+
+}
+.product_chekcout_ctr .inner_bx1 p{
+    font-family: "Urbanist", sans-serif;
+}
+.product_chekcout_ctr .inner_bx2{
+    flex: 1;
+    /* border: 2px solid red; */
+    
+}
+.product_chekcout_ctr .inner_bx2 {
+    font-family: "Urbanist", sans-serif;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.product_chekcout_ctr .inner_bx2 button{
+    background-color: transparent;
+    padding: 0.5rem 2.3rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: "Urbanist", sans-serif;
+}
+.product_chekcout_ctr h3{
+    font-family: "Urbanist", sans-serif;
+    font-size: 2.5rem;
+    color: rgba(0, 0, 0, 0.705);
+}
+

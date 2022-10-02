@@ -1,0 +1,80 @@
+.carousel-indicators {
+  display: none !important;
+}
+.carousel-control-next-icon {
+  opacity: 0.5;  position: relative;
+  opacity: 0.5;
+  z-index: 999 !important;
+  background-color: black;
+  width: 2rem !important;
+  height: 2rem !important;
+  border-radius: 50%;
+  padding: 1rem !important;
+}
+.carousel-control-prev-icon {
+    position: relative;
+  opacity: 0.5;
+  z-index: 999 !important;
+  background-color: black;
+  width: 2rem !important;
+  height: 2rem !important;
+  border-radius: 50%;
+  padding: 1rem !important;
+}
+.Carousel_ctr {
+  height: 45rem;
+  /* z-index: 99; */
+}
+.Carousel_ctr .img {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.Carousel_ctr img {
+    position: relative;
+  height: 50rem;
+  object-fit: contain;
+  max-width: 60rem;
+  z-index: 1 !important;
+
+  /* border: 2px solid black; */
+}
+.circle_ctr{
+    /* background-color: rgb(182, 229, 173); */
+    min-width: 30rem;
+    max-width: 30rem;
+    min-height: 30rem;
+    position: absolute;
+    z-index: -1;
+    left: 3rem;
+    bottom: 15rem;
+    border-radius: 50%;
+    
+}
+
+.inner_ctr {
+  display: flex;
+  align-items: center;
+  height: 50.3rem;
+  justify-content: space-around;
+}
+.inner_ctr .title_desc {
+  text-align: center;
+  width: 50rem;
+}
+.Carousel_ctr .title_desc h1 {
+  line-height: 2;
+  font-size: 4rem;
+  font-family: 'Exo 2', sans-serif;
+}
+.Carousel_ctr .title_desc h2 {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+.Carousel_ctr .title_desc .M_shopbtn{
+    background-color: transparent;
+    margin-top: 3rem;
+    padding: .5rem 1.5rem;
+    font-weight: 500;
+}
